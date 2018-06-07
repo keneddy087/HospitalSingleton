@@ -1,5 +1,5 @@
 
-package br.com.gabriel.objetos;
+package br.com.keneddy.objetos;
 
 public class Enfermeira {
     private int cofen;

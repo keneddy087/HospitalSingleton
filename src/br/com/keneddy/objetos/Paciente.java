@@ -1,5 +1,5 @@
 
-package br.com.gabriel.objetos;
+package br.com.keneddy.objetos;
 
 public class Paciente {
    private int id;
