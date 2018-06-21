@@ -87,4 +87,10 @@ public class Pessoa {
         this.estadoCivil = estadoCivil;
         this.sexo = sexo;
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" + "nome=" + nome + ", dataNascimento=" + dataNascimento + ", cpf=" + cpf + ", rg=" + rg + ", endereco=" + endereco + ", telefone=" + telefone + ", estadoCivil=" + estadoCivil + ", sexo=" + sexo + '}';
+    }
+    
 }

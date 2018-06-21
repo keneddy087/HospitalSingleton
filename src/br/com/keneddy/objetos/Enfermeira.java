@@ -25,4 +25,10 @@ public class Enfermeira {
         this.cofen = cofen;
         this.setor = setor;
     }
+
+    @Override
+    public String toString() {
+        return "Enfermeira{" + "cofen=" + cofen + ", setor=" + setor + '}';
+    }
+    
 }
